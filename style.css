@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    
+#header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.header{
+    background-color: #fff;
+
+}
+.main-header{
+    padding: 0 10px;
+    display: flex;
+    
+}
+.header-holder{
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    width: -webkit-fill-available;
+    display: flex;
+    background-color: #ffffff;
+    
+}
+.section2{
+    margin-left: 50px;
+    display: flex;
+}
+.section1{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.section3{    
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+}
+.option{
+    padding: 8px;
+    height: 24px;
+    width: 24px;
+    margin-top: 8px;
+}
+.logo{
+    height: 20px;
+    width: 88px;
+    padding: 18px 16px;
+}
+
+.search{
+    height: 26px;
+    width: 563px;
+    border: none;
+    outline-width: 0px;
+    margin: 2px 0px 0px 5px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.searchbar-holder{
+    padding: 2px 6px;
+    border: #D9D9D9 solid 2px;
+    background-color: #f9f9f9;
+}
+.search-logo-holder{
+    height: 40px;
+    width: 60px;
+    padding: 7px 16px;
+    border: solid #cccccc 1px;
+    background-color: #f9f9f9;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+}
+.voice-holder{
+    margin-left: 8px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color:#f8f8f8;
+}
+.section3-icon-holder{
+   
+    padding: 8px;
+}
+.cr7{
+    border-radius: 50px;
+    height: 32px;
+    width: 32px;
+    margin: -4px 0px 0px -4px;
+}
+.left-bar-holder{
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    padding: 12px 0;
+    height: fit-content;
+    display: flex;
+    width:16.669%;
+}
+.left-bar{
+    width: 100%;
+} 
+.column{
+    padding: 0 24px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.column-divider{
+    height: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.column-div{
+    height: 12px;
+}
+.text{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.icon-text{
+    width: 75%;
+}
+.feed-holder{
+    width: 83%;
+    height: max-content;
+    background-color: #F9F9F9;
+    margin-left: 17%;
+}
+
+.feed-tags-holder{
+    height:56px ;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    width: auto;
+    overflow-x: hidden;
+    padding: 0px 15px;
+
+}
+
+.other-than-all{
+    width: max-content;
+    margin: 12px 12px 12px 0px;
+    padding: 6px 12px;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    border: 1px solid #d9d9d9;
+}
+.tags{
+    width: max-content;
+    margin: 12px 12px 12px 24px;
+    padding: 6px 12px;
+    background-color: black;
+    border-radius: 50px;
+    
+}
+.f-column{
+    background-color:#F9F9F9; 
+    margin: 10px;
+    height: 276px; 
+    width: 25%;
+}
+.row{
+    display: flex;
+    background-color: #f9f9f9;
+}
+.feed{
+    height: 100%;
+}
+.feed-tag{
+    position: fixed;
+}
+.video img{
+    width: 96%;
+    height: 150px;
+    margin: 5px;
+}
+.profile-discription img{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.description{
+    margin: 5px;
+    display: flex   ;
+    width: auto;
+
+}
+.profile-discription{
+    width: 20%;
+}
+.disc-header{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    max-height: 4rem;
+}
+.disc-details{
+    font: 12px "Roboto","Arial",sans-serif;
+    line-height: 2rem;
+}
+.option:hover{
+    cursor: pointer;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.search-logo-holder:hover{
+    cursor: pointer;
+}
+.voice-holder:hover{
+    cursor: pointer;
+}
+.section3-icon-holder:hover{
+    cursor: pointer;
+}
+.column:hover{
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+.tags:hover{
+    cursor: pointer;
+}
+.video:hover{
+    cursor: pointer;
+}
+.profile-discription:hover{
+    cursor: pointer;
+}
+.description:hover{
+    cursor: pointer;
+}
